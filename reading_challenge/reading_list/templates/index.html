@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2018 Reading List</title>
+  </head>
+  <body>
+    <h1>2018 Reading List</h1>
+    {% for challenge in challenges %}
+      <h2>{{challenge.title}}</h2>
+      <p>{{challenge.book}}</p>
+      <p>{{challenge.category}}</p>
+    {% endfor %}
+  </body>
+</html>

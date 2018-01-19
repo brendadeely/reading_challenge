@@ -1,0 +1,85 @@
+body {
+	background-color: hsla(0, 0%, 0%, 0.65);
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	background-color: #fff;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 0 auto 20px auto;
+	width: 50%;
+}
+
+h1, h2 {
+	text-align: center;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+h2 {
+	font-size: 175%;
+}
+
+nav {
+	color: hsl(180, 65%, 20%);
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+challenge {
+	font-weight: bold;
+}
+
+booktitle {
+	font-style: italic;
+}
+
+author {
+	color: hsla(0, 0%, 0%, 0.65);
+}
+
+.main-header {
+	background-color: hsl(0, 65%, 37%);
+	color: #ffffff;
+	padding: 10px;
+}
+
+.color-scheme {
+	float: left;
+	width: 195px;
+}
+
+.color-scheme div {
+	height: 100px;
+	width: 175px;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+.high-contrast {
+	background-color: #fff;
+}
+
+.base {
+	background-color: hsl(0, 65%, 37%); /* #9c2121 */
+}
+
+.analogous {
+	background-color: hsl(180, 65%, 20%); /* 125454 */
+}
+
+.complementary {
+	background-color: hsla(0, 0%, 0%, 0.65);
+}
